@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { styles } from '@/utils/styles';
 import { navLinks } from '@/pages/api/data';
 
-const navbar = () => {
+const Navbar = () => {
 
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -70,4 +70,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

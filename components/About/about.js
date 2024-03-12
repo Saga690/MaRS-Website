@@ -23,7 +23,7 @@ const ServiceCard = ({ index, title, icon }) => {
   )
 }
 
-const about = () => {
+const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -41,4 +41,4 @@ const about = () => {
   )
 }
 
-export default SectionWrapper(about, "about")
+export default SectionWrapper(About, "about")
