@@ -44,7 +44,7 @@ const achievements = [
   {
     title: "Winner",
     event_name: "WRO India",
-    icon: "https://th.bing.com/th?id=OIP.z5vPlma3lMoERhGLZJyxIwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+    icon: "https://cdn-icons-png.flaticon.com/128/3662/3662817.png",
     iconBg: "#383E56",
     date: "March 2024",
     points: [
@@ -57,7 +57,7 @@ const achievements = [
   {
     title: "First Runner Up",
     event_name: "Technician",
-    icon: "https://th.bing.com/th?id=OIP.z5vPlma3lMoERhGLZJyxIwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+    icon: "https://cdn-icons-png.flaticon.com/128/1693/1693746.png",
     iconBg: "#E6DEDD",
     date: "Sept 2023 - Oct 2023",
     points: [
@@ -70,7 +70,7 @@ const achievements = [
   {
     title: "Winner",
     event_name: "Robotfest",
-    icon: "https://th.bing.com/th?id=OIP.z5vPlma3lMoERhGLZJyxIwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+    icon: "https://cdn-icons-png.flaticon.com/128/6584/6584942.png",
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -83,7 +83,7 @@ const achievements = [
   {
     title: "Second Runner Up",
     event_name: "VEX Worlds",
-    icon: "https://th.bing.com/th?id=OIP.z5vPlma3lMoERhGLZJyxIwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+    icon: "https://cdn-icons-png.flaticon.com/128/10817/10817309.png",
     iconBg: "#E6DEDD",
     date: "Apr 2021 - Dec 2021",
     points: [
