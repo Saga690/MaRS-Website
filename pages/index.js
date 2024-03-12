@@ -5,6 +5,7 @@ import About from "@/components/About/about";
 import Achievements from "@/components/Achievements/achievements";
 import Contact from "@/components/Contact/contact";
 import StarsCanvas from "@/components/Canvas/Stars";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -30,10 +31,10 @@ export default function Home() {
           {/* <hr className="mt-2 bg-gradient-to-r from-emerald-900 to-fuchsia-900" /> */}
           <div>
             <div className="my-6 flex justify-center gap-5">
-              <img src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png" alt="insta" width={30} className="cursor-pointer" />
-              <img src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png" alt="twitter" width={30} className="cursor-pointer" />
-              <img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png" alt="facebook" width={30} className="cursor-pointer" />
-              <img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="linkedin" width={30} className="cursor-pointer" />
+              <Link href="https://www.instagram.com/mars_iitr/"><img src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png" alt="insta" width={30} className="cursor-pointer" /></Link>
+              <Link href="#"><img src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png" alt="twitter" width={30} className="cursor-pointer" /></Link>
+              <Link href="https://www.facebook.com/marsiitr"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png" alt="facebook" width={30} className="cursor-pointer" /></Link>
+              <Link href="https://www.linkedin.com/company/marsiitrookee/"><img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="linkedin" width={30} className="cursor-pointer" /></Link>
             </div>
             <div className="text-center pb-6">
               <p>Made with ❤️ by MaRS, IITR</p>
