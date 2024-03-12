@@ -1,7 +1,6 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
-import { styles } from '@/utils/styles';
 import { services } from '@/pages/api/data';
 import { fadeIn, textVariant } from '@/utils/motion';
 import SectionWrapper from '@/hoc/SectionWrapper';

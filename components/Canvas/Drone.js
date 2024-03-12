@@ -2,6 +2,7 @@ import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF, useAnimations } from '@react-three/drei';
 import CanvasLoader from './Loader';
+import { Environment } from '@react-three/drei'
 
 const Drone = () => {
     const drone = useGLTF('./buster_drone/scene.gltf');
@@ -32,6 +33,7 @@ const DroneCanvas = () => {
             <Suspense fallback={<CanvasLoader />}>
                 <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2} />
                 <Drone />
+                {/* <Environment preset="forest" background /> */}
             </Suspense>
             <Preload all />
         </Canvas>

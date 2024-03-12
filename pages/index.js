@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "@/styles/Home.module.css";
 import Navbar from "@/components/Navbar/navbar";
 import Model from "@/components/Model/model";
 import About from "@/components/About/about";
