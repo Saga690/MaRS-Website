@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF, useAnimations } from '@react-three/drei';
-import CanvasLoader from './Loader';
+import Loader from './Loader';
 import { Environment } from '@react-three/drei'
 
 const Drone = () => {
@@ -25,12 +25,12 @@ const Drone = () => {
 const DroneCanvas = () => {
     return (
         <Canvas
-            frameLoop="demand"
+            frameloop="demand"
             shadows
             camera={{ position: [20, 3, 5], fov: 25 }}
             gl={{ preserveDrawingBuffer: true }}
         >
-            <Suspense fallback={<CanvasLoader />}>
+            <Suspense fallback={<Loader />}>
                 <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2} />
                 <Drone />
                 {/* <Environment preset="forest" background /> */}
